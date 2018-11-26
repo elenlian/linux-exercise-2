@@ -1,8 +1,23 @@
 #! /bin/bash
 
+## Creating github repository and uploading the script
 git clone https://github.com/elenlian/linux-askisi-2.git
 cd linux-exercise-2/
 git add pattern.sh
 git status
 git commit -m "add pattern.sh"
+git push
+
+## Export only the sequence names and find out how many sequences are from human(hg19)
+git add fasta.fa
+git commit -m "add fasta.fa"
+git push
+git add sequences.txt
+git commit -m "add sequences.txt"
+git push
+git add pattern.sh ##to update the modified file in the remote repository
+git commit -m "add pattern.sh"
+git push
+git add commands
+git commit -m "add commands"
 git push
