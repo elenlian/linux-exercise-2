@@ -1,0 +1,8 @@
+#! /bin/bash
+
+git clone https://github.com/elenlian/linux-askisi-2.git
+cd linux-exercise-2/
+git add pattern.sh
+git status
+git commit -m "add pattern.sh"
+git push
